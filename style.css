@@ -1,0 +1,20 @@
+#output {
+  overflow: auto;
+  height: 400px;
+  background-color: #60aaf1;
+}
+
+#output p {
+  margin: 10px 0;
+  padding: 0.5rem 1rem;
+  width: 500px;
+  border-radius: 30px;
+}
+
+#output p:nth-last-of-type(odd) {
+  background-color: #fff;
+}
+
+#output p:nth-last-of-type(even) {
+  background-color: #fff;
+}
